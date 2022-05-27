@@ -204,6 +204,6 @@ q::before {
 
     .custom-grid2 {
         grid-template-columns: repeat(5, 1fr);
-        width: 60%;
+        width: 50%;
     }
 }
