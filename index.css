@@ -18,7 +18,7 @@ body {
 
 .background {
     background-image: url(./images/office-work.jpg);
-    height: 32rem;
+    height: 30rem;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -105,6 +105,7 @@ body {
     align-items: center;
 }
 
+/* carousel styling */
 .carousel-inner {
     height: 12rem;
     position: relative;
@@ -120,18 +121,6 @@ body {
     bottom: -10px;
 }
 
-
-.input1{
-    border-style: none;
-    border: 2px solid white;
-    border-radius: 4px;
-}
-.input1:focus{
-    outline: none;
-}
-.input1::placeholder{
-    color: rgba(255, 255, 255, 0.868);
-}
 .carousel-control-prev,
 .carousel-control-next {
     position: absolute;
@@ -160,6 +149,28 @@ q::before {
     font-size: 25px;
 }
 
+/* custom-inputs styling */
+.input1{
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.input2{
+    border-style: none;
+    border-bottom:2px solid black;
+}
+.input1:focus,.input2:focus{
+    outline: none;
+}
+.input1::placeholder{
+    color: rgba(255, 255, 255, 0.868);
+}
+.input2::placeholder{
+    font-size: 12px;
+    padding-bottom:1rem;
+    text-transform: uppercase;
+}
+/*custom-mediaqueries */
 @media (max-width:398px) {
     .custom-grid2-item {
         align-self: center;
