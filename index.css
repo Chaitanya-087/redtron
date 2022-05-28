@@ -18,11 +18,18 @@ body {
 
 .background {
     background-image: url(./images/office-work.jpg);
-    height: 30rem;
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:top left;
     position: relative;
+}
+
+@media screen and (max-width:781px){
+    .background{
+        height: 50vh;
+    }
 }
 
 .custom-bg {
